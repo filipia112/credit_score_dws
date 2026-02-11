@@ -1,0 +1,12 @@
+### Update Event
+GET http://localhost:3000/event-players/event
+Content-Type: application/json
+
+{
+  "name_event": "Frank Arrival A7 - Updated",
+  "event_date": "2026-02-03",
+  "team": "A7",
+  "tier_event": "Urgent",
+  "total_participation": 60,
+  "season": 7
+}
